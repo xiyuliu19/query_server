@@ -31,3 +31,7 @@ case $1 in
         *) exit 1 ;;
 esac
 ```
+`git add .`<br>
+`git commit -m “added help .`<br>
+`git push origin master`<br>
+Done!
