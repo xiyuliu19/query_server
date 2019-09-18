@@ -7,7 +7,7 @@ if [ ! -n "$1" ]; then<br>
     echo "Current Server: xiyuliu@trgn.usc.edu!"<br>
 fi<br>
 ##create this GitHub repository called query_server and deposit the script query_server.sh in it<br>
-##click the green button of "clone and download" and copy the address<br> 
+##click the green button of "clone or download" and copy the address<br> 
 `git clone` "https://github.com/xiyuliu19/query_server.git"<br>
 ##revise the script<br>
 ```Bash
