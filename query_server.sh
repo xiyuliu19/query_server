@@ -3,7 +3,7 @@ usage()
 {
 
 cat <<EOF
-Usage: $0 [OPTION]
+Usage: query_server.sh [OPTION]
 
 Prints the name of the current server as: "Current Server:[servername]
 
