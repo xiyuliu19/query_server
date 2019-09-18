@@ -11,24 +11,23 @@ fi<br>
 `git clone` "https://github.com/xiyuliu19/query_server.git"<br>
 ##revise the script<br>
 ```Bash
-usage()<br> //bashscript
-{<br> //bashscript
+usage()
+{
+cat <<EOF
+Usage: query_server.sh [OPTION]
+
+Prints the name of the current server as: "Current Server:[servername]
 <br> //bashscript
-cat <<EOF<br> //bashscript
-Usage: query_server.sh [OPTION]<br> //bashscript
-<br> //bashscript
-Prints the name of the current server as: "Current Server:[servername]<br> //bashscript
-<br> //bashscript
-   -l  Prints the username with the servername<br> //bashscript
-<br> //bashscript
-Exit status:<br> //bashscript
- 0  if OK,<br> //bashscript
- 1  Problem with command line<br> //bashscript
-EOF<br> //bashscript
-}<br> //bashscript
-case $1 in<br> //bashscript
-        --help) usage; exit 0;;<br> //bashscript
-        -l) echo "Current Server: xiyuliu@trgn.usc.edu!"; exit 0 ;;<br> //bashscript
-        *) exit 1 ;;<br> //bashscript
-esac<br> //bashscript
+   -l  Prints the username with the servername
+
+Exit status:
+ 0  if OK,
+ 1  Problem with command line
+EOF
+}
+case $1 in
+        --help) usage; exit 0;;<
+        -l) echo "Current Server: xiyuliu@trgn.usc.edu!"; exit 0 ;;
+        *) exit 1 ;;
+esac
 ```
